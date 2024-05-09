@@ -1,0 +1,7 @@
+
+
+$resourceGroup = "katiaRG"
+$vmName = "vm"
+
+
+Stop-AzVM -ResourceGroupName $resourceGroup -Name $vmName -Force
